@@ -14,22 +14,26 @@
               <a
                 target="_blank"
                 class="text-indigo-600 underline hover:text-indigo-500"
-                href="https://tailwindui.com"
-                >Tailwind UI</a
+                href="https://tailwindcss.com"
+                >Tailwind CSS</a
               >
             </h2>
             <p
               class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
             >
-              All the code present here is part of the free samples. If you
-              don't have Tailwind UI, you can use the
+              All the code present here is part of a free sample from
               <a
-                target="_blank"
+                href="https://tailwindui.com"
                 class="text-indigo-600 underline hover:text-indigo-500"
-                href="https://TODO.com"
-                >plain Tailwind version</a
+                >Tailwind UI</a
               >
-              instead.
+              but, you don't need it. There is also a version configured to use
+              <b>Tailwind UI </b>&#32;
+              <a
+                class="text-indigo-600 underline hover:text-indigo-500"
+                href="https://github.com/posva/vite-tailwind-starter/tree/tailwind-ui"
+                >in a different branch</a
+              >
             </p>
             <div
               class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"

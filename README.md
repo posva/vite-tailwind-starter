@@ -1,6 +1,6 @@
-# Vite + Tailwind UI starter
+# Vite + Tailwind CSS starter
 
-Note you need access to [Tailwind UI](https://tailwindui.com) to use this. If you don't have it, you can use the regular Tailwind CSS version, [available here](#TODO)
+Note if you have access to [Tailwind UI](https://tailwindui.com), you can use [this version instead](https://github.com/posva/vite-tailwind-starter).
 
 ## Installation
 
