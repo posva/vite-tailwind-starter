@@ -1,27 +1,17 @@
 version: 2.1
-
+orbs:
+  node: circleci/node@1.1.6
 jobs:
-  build:
-    docker:
-      - image: circleci/node:12
-
-    working_directory: ~/repo
-
+  build-and-test:
+    executor:
+      name: node/default
     steps:
       - checkout
-
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-            - dependencies-cache-{{ checksum "yarn.lock" }}
-            # fallback to using the latest cache if no exact match is found
-            - dependencies-cache-
-
-      - run: yarn install
-
-      - save_cache:
-          paths:
-            - node_modules
-          key: dependencies-cache-{{ checksum "yarn.lock" }}
-
-      - run: yarn run build
+      - node/with-cache:
+          steps:
+            - run: yarn install
+            - run: yarn run build
+workflows:
+  build-and-test:
+    jobs:
+      - build-and-test
