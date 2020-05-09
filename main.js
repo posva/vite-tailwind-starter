@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
 import './main.css'
-import App from '/App.vue'
+import App from './App.vue'
 import { routes } from '/routes.js'
 import { createRouter, createWebHistory } from 'vue-router'
-import { hot } from '@hmr'
+import { hot } from 'vite/hmr'
 
 let app = createApp(App)
 let router = createRouter({

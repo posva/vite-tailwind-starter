@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "tailwindcss": "^1.4.6",
-    "vue": "^3.0.0-beta.10",
+    "vue": "next",
     "vue-router": "^4.0.0-alpha.10"
   },
   "devDependencies": {

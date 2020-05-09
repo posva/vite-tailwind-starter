@@ -2822,7 +2822,7 @@ vue-router@^4.0.0-alpha.10:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-alpha.10.tgz#d27fc8c0713b6198f9c50af9b9e8be15f311f869"
   integrity sha512-dA2ywr/rk2yc6JG3nn1eu9wlhR3AAO1dAs75uqY2N8HxvJviSxO0YAm0aHvLkFYTNa9JGV+ao0gr5oJzVbGTaQ==
 
-vue@^3.0.0-beta.10:
+vue@^3.0.0-beta.10, vue@next:
   version "3.0.0-beta.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.0-beta.10.tgz#2e506a2923d84e3aacbdea0c1f232a7f78fc22e6"
   integrity sha512-qA7uwX9mFtPd7yUF0lZq3B5yd9AZBmyCk/CCakhyCBqfWE4KsqaIYwb2Uwn6VXn0/aNzKZ8akP0OYCKygq1fkg==
