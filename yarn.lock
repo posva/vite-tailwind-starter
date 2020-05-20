@@ -2992,10 +2992,10 @@ vite@^0.16.0:
     vue "^3.0.0-beta.14"
     ws "^7.2.3"
 
-vue-router@^4.0.0-alpha.11:
-  version "4.0.0-alpha.11"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-alpha.11.tgz#17b0f31ae6b0284ee0895b03904cf1738989aa0e"
-  integrity sha512-GEgKq7rlwdv03QcGqADZg+Es8D6R8FfZRLSj0Ardx/sK8PiIxpt5ViwW94Zh2LuIEiuM1U5v8iyTBya0UBK61g==
+vue-router@^4.0.0-alpha.12:
+  version "4.0.0-alpha.12"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-alpha.12.tgz#cba18f0a7fcb577d97c8cd10072a9927313db510"
+  integrity sha512-TJhbWHPZS1v259PKlZf+ljSob0U2RUii3HXQgrcFXsNmeWuqEYEh6trswHHr4+MQdXxHgonyYK28qhBjNhORkA==
 
 vue@^3.0.0-beta.14, vue@next:
   version "3.0.0-beta.14"
