@@ -2959,10 +2959,10 @@ vendors@^1.0.0:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
-vite@^0.16.4:
-  version "0.16.4"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-0.16.4.tgz#f92a7c82754e8df8938f434ac631df137d5e01b6"
-  integrity sha512-NASAy0MgI1kYf1GrhMmpVcN4VST3yt8uHQc8w+lDL+gXXQ3YdCv7R5xFMMdov2Mwozm7XUBrk68fMXWO35HfdA==
+vite@^0.16.6:
+  version "0.16.6"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-0.16.6.tgz#8d6a4bea65b902dad39520641887e827e1579715"
+  integrity sha512-AVHZn+L/BNwjsRosH6lcmw3aeipZTe9uDXtpJ2HjEIe0LrlWvqslyVNRWD6/mEPFkTK04axXSMBwCGbCupWBdQ==
   dependencies:
     "@babel/parser" "^7.9.4"
     "@rollup/plugin-commonjs" "~11.0.0"
