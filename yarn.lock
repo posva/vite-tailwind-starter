@@ -962,6 +962,11 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
+dotenv@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
+
 duplexer@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
@@ -2531,7 +2536,7 @@ resolve-path@^1.4.0:
     http-errors "~1.6.2"
     path-is-absolute "1.0.1"
 
-resolve@^1.11.0, resolve@^1.14.2:
+resolve@^1.11.0, resolve@^1.14.2, resolve@^1.17.0:
   version "1.17.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.17.0.tgz#b25941b54968231cc2d1bb76a79cb7f2c0bf8444"
   integrity sha512-ic+7JYiV8Vi2yzQGFWOkiZD5Z9z7O2Zhm9XMaTxdJExKasieFCr+yXZ/WmXsckHiKl12ar0y6XiXDx3m4RHn1w==
@@ -2959,10 +2964,10 @@ vendors@^1.0.0:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
-vite@^0.16.6:
-  version "0.16.6"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-0.16.6.tgz#8d6a4bea65b902dad39520641887e827e1579715"
-  integrity sha512-AVHZn+L/BNwjsRosH6lcmw3aeipZTe9uDXtpJ2HjEIe0LrlWvqslyVNRWD6/mEPFkTK04axXSMBwCGbCupWBdQ==
+vite@^0.16.10:
+  version "0.16.10"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-0.16.10.tgz#38653a0aae0cd0e95a996e6a0f0f2ec6057980a7"
+  integrity sha512-m0U93CX/0klWm4MOYqAz8VNqxfMY6Z5hNgJzt9104BEI5b88gJTmr1g9TDK6DDgNJ6Ypo5CSco7J2hUnJm6vpw==
   dependencies:
     "@babel/parser" "^7.9.4"
     "@rollup/plugin-commonjs" "~11.0.0"
@@ -2976,6 +2981,7 @@ vite@^0.16.6:
     chokidar "^3.3.1"
     cssnano "^4.1.10"
     debug "^4.1.1"
+    dotenv "^8.2.0"
     es-module-lexer "^0.3.18"
     esbuild "^0.3.2"
     etag "^1.8.1"
@@ -2997,6 +3003,7 @@ vite@^0.16.6:
     postcss "^7.0.28"
     postcss-load-config "^2.1.0"
     postcss-modules "^2.0.0"
+    resolve "^1.17.0"
     rollup "^2.7.2"
     rollup-plugin-terser "^5.3.0"
     rollup-plugin-vue "^6.0.0-beta.1"
