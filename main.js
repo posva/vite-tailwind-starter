@@ -3,7 +3,6 @@ import './main.css'
 import App from './App.vue'
 import { routes } from '/routes.js'
 import { createRouter, createWebHistory } from 'vue-router'
-import { hot } from 'vite/hmr'
 
 let app = createApp(App)
 let router = createRouter({
@@ -11,14 +10,14 @@ let router = createRouter({
   routes: __DEV__ ? [] : routes,
 })
 
-if (__DEV__) {
+if (import.meta.hot) {
   let removeRoutes = []
 
   for (let route of routes) {
     removeRoutes.push(router.addRoute(route))
   }
 
-  hot.accept('./routes.js', ({ routes }) => {
+  import.meta.hot.acceptDeps('./routes.js', ({ routes }) => {
     for (let removeRoute of removeRoutes) removeRoute()
     removeRoutes = []
     for (let route of routes) {
