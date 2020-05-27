@@ -179,6 +179,11 @@
     "@types/koa-compose" "*"
     "@types/node" "*"
 
+"@types/lru-cache@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@types/lru-cache/-/lru-cache-5.1.0.tgz#57f228f2b80c046b4a1bd5cac031f81f207f4f03"
+  integrity sha512-RaE0B+14ToE4l6UqdarKPnXwVDuigfFv+5j9Dze/Nqr23yyuqdNvzcZi3xB+3Agvi5R4EOgAksfv3lXX4vBt9w==
+
 "@types/mime@*":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.1.tgz#dc488842312a7f075149312905b5e3c0b054c79d"
@@ -1047,10 +1052,10 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-esbuild@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.3.2.tgz#3f6bdfbf51b2e776bb57952691930097b3770705"
-  integrity sha512-sm5o2D/nHhXSrs2D4UySNeyjSxJlgxQ6Ze2Cy6OOIJqbuDd/u6sMtiSn243bAEiyyYzlazueeryrrWJJCkv8lA==
+esbuild@^0.4.1:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.4.2.tgz#5815cf514cb19add7d7f9a344ba60178ffee2aea"
+  integrity sha512-FvozxNPLl3HvbMqlV08kmqPlwI8nbnMc/2vKqWKHkrRa/2Nc1fNU2oXtT0jq+8IMAOuOG+2/79Xm9LBY0UR8Cw==
 
 escape-html@^1.0.3:
   version "1.0.3"
@@ -2964,16 +2969,17 @@ vendors@^1.0.0:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
-vite@^0.16.12:
-  version "0.16.12"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-0.16.12.tgz#eebfb3aadd8ae4f73c46bdb1512c0f1574bdf05e"
-  integrity sha512-/sVztpsjul+JgXg9enowHvh2zfrtOBV6dychZLkwNcL6PPAlfLebA2ln15a6wdCMcEkvwK6jWJhdXPfFfWcgzw==
+vite@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-0.17.0.tgz#d6a98826ca408839bebbcd5c5154bebc3de13c33"
+  integrity sha512-BeqKnbybD1vq6oND8TTYPzG4AAfM1iYOVqsrS7fzHsRjAk0tfV/856EhpGL09dfkLv8yKNjCr7CxG//8K9vFuA==
   dependencies:
     "@babel/parser" "^7.9.4"
     "@rollup/plugin-commonjs" "~11.0.0"
     "@rollup/plugin-json" "^4.0.3"
     "@rollup/plugin-node-resolve" "^7.1.3"
     "@types/koa" "^2.11.3"
+    "@types/lru-cache" "^5.1.0"
     "@vue/compiler-dom" "^3.0.0-beta.14"
     "@vue/compiler-sfc" "^3.0.0-beta.14"
     brotli-size "^4.0.0"
@@ -2983,7 +2989,7 @@ vite@^0.16.12:
     debug "^4.1.1"
     dotenv "^8.2.0"
     es-module-lexer "^0.3.18"
-    esbuild "^0.3.2"
+    esbuild "^0.4.1"
     etag "^1.8.1"
     execa "^4.0.1"
     fs-extra "^9.0.0"
