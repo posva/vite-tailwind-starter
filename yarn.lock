@@ -2571,7 +2571,7 @@ rollup-plugin-terser@^5.3.0:
     serialize-javascript "^2.1.2"
     terser "^4.6.2"
 
-rollup-plugin-vue@^6.0.0-beta.1:
+rollup-plugin-vue@^6.0.0-beta.3:
   version "6.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/rollup-plugin-vue/-/rollup-plugin-vue-6.0.0-beta.3.tgz#cbac4e3bff1aa1cd8a57cf7b2cb061c8e7256446"
   integrity sha512-v/Ezn62J3L5fSRCyu40J7XIXTcW1UJkwz8ND/Bwh4v35lqtReci7lwnksz8dYmaf74eAL6DDrTmNjf8+D0r2YA==
@@ -2963,10 +2963,10 @@ vendors@^1.0.0:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
-vite@^0.17.0:
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-0.17.0.tgz#d6a98826ca408839bebbcd5c5154bebc3de13c33"
-  integrity sha512-BeqKnbybD1vq6oND8TTYPzG4AAfM1iYOVqsrS7fzHsRjAk0tfV/856EhpGL09dfkLv8yKNjCr7CxG//8K9vFuA==
+vite@^0.17.1:
+  version "0.17.1"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-0.17.1.tgz#ba23e7534be209420d4fee092677eac2add6e765"
+  integrity sha512-4M3nlGA7e5tzsduO+IgjBy5HbG71FTGxQ+ef99tSZ1x+oE2NT+k3+j5QWnureyxM1fUIHKPYf4pMsCXob+GkhA==
   dependencies:
     "@babel/parser" "^7.9.4"
     "@rollup/plugin-commonjs" "~11.0.0"
@@ -3006,7 +3006,7 @@ vite@^0.17.0:
     resolve "^1.17.0"
     rollup "^2.7.2"
     rollup-plugin-terser "^5.3.0"
-    rollup-plugin-vue "^6.0.0-beta.1"
+    rollup-plugin-vue "^6.0.0-beta.3"
     selfsigned "^1.10.7"
     slash "^3.0.0"
     vue "^3.0.0-beta.14"
