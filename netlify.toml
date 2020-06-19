@@ -1,0 +1,5 @@
+[build]
+  ignore = "git diff --quiet HEAD^ HEAD views index.html main.css main.js App.vue img routes.js"
+  publish = "dist"
+  command = "yarn run build"
+
