@@ -27,13 +27,13 @@
                 class="text-indigo-600 underline hover:text-indigo-500"
                 >Tailwind UI</a
               >
-              but, you don't need it. There is also a version configured to use
-              <b>Tailwind UI </b>&#32;
+              but, you don't need it. If you want to add
+              <b>Tailwind UI </b>&#32; check the instructions on
               <a
                 class="text-indigo-600 underline hover:text-indigo-500"
-                href="https://github.com/posva/vite-tailwind-starter/tree/tailwind-ui"
-                >in a different branch</a
-              >
+                href="https://github.com/posva/vite-tailwind-starter/tree/master#vite--tailwind-css-starter"
+                ><code>README</code></a
+              >. It only takes two steps to add it 🙂.
             </p>
             <div
               class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start"
