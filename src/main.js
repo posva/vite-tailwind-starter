@@ -1,13 +1,13 @@
 import { createApp } from 'vue'
-import './main.css'
+import './assets/main.css'
 import App from './App.vue'
-import { routes } from '/routes.js'
+import { routes } from './routes.js'
 import { createRouter, createWebHistory } from 'vue-router'
 
 let app = createApp(App)
 let router = createRouter({
   history: createWebHistory(),
-  routes: __DEV__ ? [] : routes,
+  routes: import.meta.hot ? [] : routes,
 })
 
 if (import.meta.hot) {
