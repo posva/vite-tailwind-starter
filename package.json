@@ -12,7 +12,7 @@
     "vue-router": "^4.0.0-alpha.13"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-beta.17",
+    "@vue/compiler-sfc": "^3.0.0-beta.18",
     "vite": "^1.0.0-beta.8"
   }
 }
