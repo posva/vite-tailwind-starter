@@ -2290,10 +2290,10 @@ vite@^1.0.0-beta.11:
     vue "^3.0.0-beta.14"
     ws "^7.2.3"
 
-vue-router@^4.0.0-alpha.14:
-  version "4.0.0-alpha.14"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-alpha.14.tgz#4bc5fed1db61b8d04fd95ad9c499c7428f039a0e"
-  integrity sha512-ydWSXxXAsTCiJ31V4x4ZAKI1CdpPMhf7b2LPi4AmG5SCgduu1zf+LhzWWHXmgbmheEiJpfecigVIZp4ABpZJmw==
+vue-router@^4.0.0-beta.1:
+  version "4.0.0-beta.1"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-beta.1.tgz#8ccdc37c991efa30d1519f885dd772307715503a"
+  integrity sha512-byqdBiKISN9Qrse6A0fgR6tePQNwlAdx+wBgO2x08MEn6hy8ds19uKvosfruVjw5vhpFmjvGR15Z68an+7fRAQ==
 
 vue@^3.0.0-beta.14, vue@next:
   version "3.0.0-beta.18"
