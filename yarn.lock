@@ -2235,10 +2235,10 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vite@^1.0.0-beta.10:
-  version "1.0.0-beta.10"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-1.0.0-beta.10.tgz#9399d4bd447c37ed3502495d64bb86c188b45bc7"
-  integrity sha512-4YtbXi6RsR4pA/j+MSdrsBLsC7b5sETU8Y12NpUcI20NZgdGzA07xadh5xHk6nQal/ySq5XXnNfQiStYQd1tGw==
+vite@^1.0.0-beta.11:
+  version "1.0.0-beta.11"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-1.0.0-beta.11.tgz#85c87549264d4b74a05da2c3eb1eb42fa8460197"
+  integrity sha512-etweuuPXgxwruCrcyj63fwpUlc6+HsE4n7uiOQ/fYEzjwOrUtEX4BuVAYcSkoxVA8qHS7zukG4LYzIozcD92Xw==
   dependencies:
     "@babel/parser" "^7.9.4"
     "@rollup/plugin-commonjs" "^13.0.0"
