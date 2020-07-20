@@ -260,7 +260,7 @@
     estree-walker "^2.0.1"
     source-map "^0.6.1"
 
-"@vue/compiler-dom@3.0.0-rc.2", "@vue/compiler-dom@^3.0.0-beta.24":
+"@vue/compiler-dom@3.0.0-rc.2", "@vue/compiler-dom@^3.0.0-rc.1":
   version "3.0.0-rc.2"
   resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.0.0-rc.2.tgz#e56ea950d946ab316755fd1fcabfa627c6741ba3"
   integrity sha512-38iflPPoZtbPBBLDI9q2xP3MQAnUIQFs9aRwSMJqDI0PxEvB2J9O6o5bBtN7QIorL5KnxDO9LLz+RuCgmFIQVQ==
@@ -268,7 +268,7 @@
     "@vue/compiler-core" "3.0.0-rc.2"
     "@vue/shared" "3.0.0-rc.2"
 
-"@vue/compiler-sfc@^3.0.0-beta.24", "@vue/compiler-sfc@^3.0.0-rc.2":
+"@vue/compiler-sfc@^3.0.0-rc.1", "@vue/compiler-sfc@^3.0.0-rc.2":
   version "3.0.0-rc.2"
   resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.0.0-rc.2.tgz#c92ef9ddb6fdd37d1c5a5dba53af7e4384aa9e31"
   integrity sha512-DFQOVrUzkcjbv65wJEjRI7v//9cAXoeOBj2nx527287DMNWBQK9WuFyNVt1+U1hTOjRohL6VBFtSbw8fy21s6A==
@@ -2239,10 +2239,10 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vite@^1.0.0-beta.12:
-  version "1.0.0-beta.12"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-1.0.0-beta.12.tgz#4a7a8325d1dab9c2c9a6d6fe110464182277a053"
-  integrity sha512-cu4F7b1zoGlW56O4yLRxY4YqrcpuK+cXVa7N8VRFS/LB27Yb0BMnyOnv1dR926jpNSUDd5D5/JaXdZKbwiJRNQ==
+vite@^1.0.0-rc.1:
+  version "1.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-1.0.0-rc.1.tgz#073cef87d7f335dad7b13dd69506ca23129e55b4"
+  integrity sha512-CpJN3C2uhY6xcISlHIs9lJCnIe40/WGat8B0X60h1PVR/tcD+Ef8Iv/G/oxK31Qm4xFzjJ9m6mr4pOUVfH4nUA==
   dependencies:
     "@babel/parser" "^7.9.4"
     "@rollup/plugin-commonjs" "^13.0.0"
@@ -2250,8 +2250,8 @@ vite@^1.0.0-beta.12:
     "@rollup/plugin-node-resolve" "^8.0.0"
     "@types/koa" "^2.11.3"
     "@types/lru-cache" "^5.1.0"
-    "@vue/compiler-dom" "^3.0.0-beta.24"
-    "@vue/compiler-sfc" "^3.0.0-beta.24"
+    "@vue/compiler-dom" "^3.0.0-rc.1"
+    "@vue/compiler-sfc" "^3.0.0-rc.1"
     brotli-size "^4.0.0"
     chalk "^4.0.0"
     chokidar "^3.3.1"
@@ -2291,7 +2291,7 @@ vite@^1.0.0-beta.12:
     rollup-plugin-web-worker-loader "^1.3.0"
     selfsigned "^1.10.7"
     slash "^3.0.0"
-    vue "^3.0.0-beta.24"
+    vue "^3.0.0-rc.1"
     ws "^7.2.3"
 
 vue-router@^4.0.0-beta.2:
@@ -2299,7 +2299,7 @@ vue-router@^4.0.0-beta.2:
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.0.0-beta.2.tgz#792dfafdb2b2eecfe84f53e2ce6855ccff079e92"
   integrity sha512-+TvUCpxEhgSCssMTXdX4qei/YZN1kEt4nZoOySPLLUlAeEIlY3K1ps3hyCOeC1qYGCuSwaWuDmK/yi2d7W0sSg==
 
-vue@^3.0.0-beta.24, vue@next:
+vue@^3.0.0-rc.1, vue@next:
   version "3.0.0-rc.2"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.0-rc.2.tgz#7eb0858e575051ac612bee6547bdd21b0f63d717"
   integrity sha512-syYidmtdfAz2aN1q7F/TlyPZdRXjIbp/QnpetWwhoBaOQOnqm+dHN5KwN8xBF+eUE4ys4aO8rrv7ulTQ4l8rFQ==
