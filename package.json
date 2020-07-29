@@ -7,7 +7,7 @@
     "build": "vite build"
   },
   "dependencies": {
-    "tailwindcss": "^1.5.2",
+    "tailwindcss": "^1.6.0",
     "vue": "next",
     "vue-router": "^4.0.0-beta.4"
   },
