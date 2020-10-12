@@ -168,6 +168,7 @@
             v-for="(link, i) in links"
             :key="i"
             :to="link.to"
+            custom
             v-slot="{ navigate, href, isExactActive }"
           >
             <a
