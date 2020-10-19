@@ -7,7 +7,7 @@
     "build": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
-    "tailwindcss": "^1.8.13",
+    "tailwindcss": "^1.9.4",
     "vue": "next",
     "vue-router": "^4.0.0-beta.13"
   },
