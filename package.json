@@ -9,7 +9,7 @@
   "dependencies": {
     "tailwindcss": "^1.9.4",
     "vue": "next",
-    "vue-router": "^4.0.0-beta.13"
+    "vue-router": "^4.0.0-rc.1"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.1",
