@@ -3,6 +3,9 @@
   publish = "dist"
   command = "yarn run build"
 
+[build.environment]
+  NODE_VERSION = "12"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
