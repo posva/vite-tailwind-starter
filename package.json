@@ -7,13 +7,15 @@
     "build": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
-    "tailwindcss": "^1.9.6",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "vue": "next",
     "vue-router": "^4.0.0-rc.3"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.2",
+    "autoprefixer": "^9",
     "cross-env": "^7.0.2",
+    "postcss": "^7",
     "vite": "^1.0.0-rc.9"
   }
 }
