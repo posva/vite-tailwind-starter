@@ -4,7 +4,7 @@
 
 ## Tailwind UI Users
 
-If you have access to [Tailwind UI](https://tailwindui.com), you can follow the following steps to add it:
+If you have access to [Tailwind UI](https://tailwindui.com), follow these steps to add it:
 
 1. Install first-party plugins:
 
@@ -12,7 +12,7 @@ If you have access to [Tailwind UI](https://tailwindui.com), you can follow the 
 yarn add @tailwindcss/forms @tailwindcss/typography @tailwindcss/aspect-ratio
 ```
 
-2. Add the plugins in `tailwind.config.js` without changing anything else:
+2. Add the plugins to `tailwind.config.js`:
 
 ```js
 // tailwind.config.js
