@@ -7,11 +7,11 @@
     "build": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
-    "vue": "^3.0.4",
+    "vue": "^3.0.5",
     "vue-router": "^4.0.2"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.4",
+    "@vue/compiler-sfc": "^3.0.5",
     "autoprefixer": "^10.1.0",
     "cross-env": "^7.0.3",
     "postcss": "^8.2.1",
