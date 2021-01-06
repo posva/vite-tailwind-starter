@@ -17,7 +17,7 @@ if (import.meta.hot) {
     removeRoutes.push(router.addRoute(route))
   }
 
-  import.meta.hot.acceptDeps('./routes.js', ({ routes }) => {
+  import.meta.hot.accept('./routes.js', ({ routes }) => {
     for (let removeRoute of removeRoutes) removeRoute()
     removeRoutes = []
     for (let route of routes) {
