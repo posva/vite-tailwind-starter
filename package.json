@@ -16,7 +16,7 @@
     "autoprefixer": "^10.2.5",
     "cross-env": "^7.0.3",
     "postcss": "^8.2.8",
-    "tailwindcss": "^2.0.3",
+    "tailwindcss": "^2.0.4",
     "vite": "^2.1.2"
   },
   "resolutions": {
