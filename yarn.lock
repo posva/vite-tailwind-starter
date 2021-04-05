@@ -28,10 +28,10 @@
   dependencies:
     purgecss "^3.1.3"
 
-"@vitejs/plugin-vue@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.2.0.tgz#f0a92470b74761f90afc8cda204fa3bec9df09f4"
-  integrity sha512-IhSJfJH6IDNEAnhr91+2vhLLe/1SqkA/2BP19jwtn54DGI+cNbZIxiPhHIdKUpdRo0QwErOh6Jy1Maxk2uVo7A==
+"@vitejs/plugin-vue@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-1.2.1.tgz#6de49436fc346f829a56676066428e3f011522ac"
+  integrity sha512-TG+LbEUNwfFrx1VyN+iq+PsiGd9MT16hUdJY+BnMXj3MrLAF8m3VYUspTDM3aXoh48YDmAkMjG4gWFRg3lbG5A==
 
 "@vue/compiler-core@3.0.11":
   version "3.0.11"
