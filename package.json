@@ -17,7 +17,7 @@
     "cross-env": "^7.0.3",
     "postcss": "^8.2.12",
     "tailwindcss": "^2.1.2",
-    "vite": "^2.2.3"
+    "vite": "^2.4.3"
   },
   "resolutions": {
     "postcss": "8.2.12"
