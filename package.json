@@ -11,13 +11,13 @@
     "vue-router": "^4.0.6"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.2",
-    "@vue/compiler-sfc": "^3.1.4",
-    "autoprefixer": "^10.2.5",
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.1.5",
+    "autoprefixer": "^10.3.1",
     "cross-env": "^7.0.3",
-    "postcss": "^8.2.12",
-    "tailwindcss": "^2.1.2",
-    "vite": "^2.2.3"
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7",
+    "vite": "^2.4.3"
   },
   "resolutions": {
     "postcss": "8.2.12"
