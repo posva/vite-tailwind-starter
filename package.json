@@ -8,18 +8,18 @@
   },
   "dependencies": {
     "vue": "^3.2.31",
-    "vue-router": "^4.0.12"
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^2.2.2",
+    "@vitejs/plugin-vue": "^2.2.4",
     "@vue/compiler-sfc": "^3.2.31",
     "autoprefixer": "^10.4.2",
     "cross-env": "^7.0.3",
-    "postcss": "^8.4.7",
+    "postcss": "^8.4.8",
     "tailwindcss": "^2.2.19",
-    "vite": "^2.8.4"
+    "vite": "^2.8.6"
   },
   "resolutions": {
-    "postcss": "^8.4.7"
+    "postcss": "^8.4.8"
   }
 }
