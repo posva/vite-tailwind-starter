@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "vue": "^3.2.37",
-    "vue-router": "^4.0.16"
+    "vue-router": "^4.1.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
@@ -17,7 +17,7 @@
     "cross-env": "^7.0.3",
     "postcss": "^8.4.14",
     "tailwindcss": "^2.2.19",
-    "vite": "^2.9.13"
+    "vite": "^2.9.14"
   },
   "resolutions": {
     "postcss": "^8.4.14"
