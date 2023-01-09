@@ -15,11 +15,11 @@
     "@vue/compiler-sfc": "^3.2.45",
     "autoprefixer": "^10.4.13",
     "cross-env": "^7.0.3",
-    "postcss": "^8.4.20",
+    "postcss": "^8.4.21",
     "tailwindcss": "^2.2.19",
-    "vite": "^4.0.3"
+    "vite": "^4.0.4"
   },
   "resolutions": {
-    "postcss": "^8.4.20"
+    "postcss": "^8.4.21"
   }
 }
