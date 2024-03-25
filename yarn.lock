@@ -282,13 +282,13 @@ arg@^5.0.2:
   resolved "https://registry.yarnpkg.com/arg/-/arg-5.0.2.tgz#c81433cc427c92c4dcf4865142dbca6f15acd59c"
   integrity sha512-PYjyFOLKQ9y57JvQ6QLo8dAgNqswh8M1RMJYdQduT6xbWSgK36P/Z/v+p888pM69jMMfS8Xd8F6I1kQ/I9HUGg==
 
-autoprefixer@^10.4.18:
-  version "10.4.18"
-  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.18.tgz#fcb171a3b017be7cb5d8b7a825f5aacbf2045163"
-  integrity sha512-1DKbDfsr6KUElM6wg+0zRNkB/Q7WcKYAaK+pzXn+Xqmszm/5Xa9coeNdtP88Vi+dPzZnMjhge8GIV49ZQkDa+g==
+autoprefixer@^10.4.19:
+  version "10.4.19"
+  resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-10.4.19.tgz#ad25a856e82ee9d7898c59583c1afeb3fa65f89f"
+  integrity sha512-BaENR2+zBZ8xXhM4pUaKUxlVdxZ0EZhjvbopwnXmxRUfqDmwSpC2lAi/QXvx7NRdPCo1WKEcEF6mV64si1z4Ew==
   dependencies:
     browserslist "^4.23.0"
-    caniuse-lite "^1.0.30001591"
+    caniuse-lite "^1.0.30001599"
     fraction.js "^4.3.7"
     normalize-range "^0.1.2"
     picocolors "^1.0.0"
@@ -334,10 +334,15 @@ camelcase-css@^2.0.1:
   resolved "https://registry.yarnpkg.com/camelcase-css/-/camelcase-css-2.0.1.tgz#ee978f6947914cc30c6b44741b6ed1df7f043fd5"
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
-caniuse-lite@^1.0.30001587, caniuse-lite@^1.0.30001591:
+caniuse-lite@^1.0.30001587:
   version "1.0.30001593"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001593.tgz#7cda1d9e5b0cad6ebab4133b1f239d4ea44fe659"
   integrity sha512-UWM1zlo3cZfkpBysd7AS+z+v007q9G1+fLTUU42rQnY6t2axoogPW/xol6T7juU5EUoOhML4WgBIdG+9yYqAjQ==
+
+caniuse-lite@^1.0.30001599:
+  version "1.0.30001600"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001600.tgz#93a3ee17a35aa6a9f0c6ef1b2ab49507d1ab9079"
+  integrity sha512-+2S9/2JFhYmYaDpZvo0lKkfvuKIglrx68MwOBqMGHhQsNkLjB5xtc/TGoEPs+MxjSyN/72qer2g97nzR641mOQ==
 
 chokidar@^3.5.3:
   version "3.5.3"
@@ -767,14 +772,14 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@^8.4.23, postcss@^8.4.27, postcss@^8.4.35, postcss@^8.4.36:
-  version "8.4.36"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.36.tgz#dba513c3c3733c44e0288a712894f8910bbaabc6"
-  integrity sha512-/n7eumA6ZjFHAsbX30yhHup/IMkOmlmvtEi7P+6RMYf+bGJSUHc3geH4a0NSZxAz/RJfiS9tooCTs9LAVYUZKw==
+postcss@^8.4.23, postcss@^8.4.27, postcss@^8.4.35, postcss@^8.4.38:
+  version "8.4.38"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.38.tgz#b387d533baf2054288e337066d81c6bee9db9e0e"
+  integrity sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==
   dependencies:
     nanoid "^3.3.7"
     picocolors "^1.0.0"
-    source-map-js "^1.1.0"
+    source-map-js "^1.2.0"
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -840,10 +845,10 @@ source-map-js@^1.0.2:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
-source-map-js@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.1.0.tgz#9e7d5cb46f0689fb6691b30f226937558d0fa94b"
-  integrity sha512-9vC2SfsJzlej6MAaMPLu8HiBSHGdRAJ9hVFYN1ibZoNkeanmDmLUcIrj6G9DGL7XMJ54AKg/G75akXl1/izTOw==
+source-map-js@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.0.tgz#16b809c162517b5b8c3e7dcd315a2a5c2612b2af"
+  integrity sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==
 
 sucrase@^3.32.0:
   version "3.34.0"
@@ -930,10 +935,10 @@ util-deprecate@^1.0.2:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite@^4.5.2:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-4.5.2.tgz#d6ea8610e099851dad8c7371599969e0f8b97e82"
-  integrity sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==
+vite@^4.5.3:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.5.3.tgz#d88a4529ea58bae97294c7e2e6f0eab39a50fb1a"
+  integrity sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==
   dependencies:
     esbuild "^0.18.10"
     postcss "^8.4.27"
