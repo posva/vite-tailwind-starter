@@ -13,11 +13,11 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.8",
     "@vue/compiler-sfc": "^3.5.42",
-    "autoprefixer": "^10.5.5",
+    "autoprefixer": "^10.6.0",
     "cross-env": "^10.1.0",
     "postcss": "^8.5.28",
     "tailwindcss": "^4.3.3",
-    "vite": "^8.2.2"
+    "vite": "^8.3.0"
   },
   "resolutions": {
     "postcss": "^8.5.28"
