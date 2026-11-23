@@ -7,19 +7,19 @@
     "build": "cross-env NODE_ENV=production vite build"
   },
   "dependencies": {
-    "vue": "^3.5.45",
-    "vue-router": "^5.4.0"
+    "vue": "^3.5.46",
+    "vue-router": "^5.5.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^6.0.10",
-    "@vue/compiler-sfc": "^3.5.45",
-    "autoprefixer": "^10.6.2",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "@vue/compiler-sfc": "^3.5.46",
+    "autoprefixer": "^10.7.0",
     "cross-env": "^10.1.0",
-    "postcss": "^8.5.32",
+    "postcss": "^8.5.33",
     "tailwindcss": "^4.3.5",
-    "vite": "^8.3.6"
+    "vite": "^8.3.8"
   },
   "resolutions": {
-    "postcss": "^8.5.32"
+    "postcss": "^8.5.33"
   }
 }
